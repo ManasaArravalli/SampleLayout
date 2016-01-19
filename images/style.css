@@ -1,0 +1,508 @@
+/* Reset CSS */
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	
+}
+
+/* Body Styles */
+
+body{
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	color: #888;	
+}
+
+/* Typography */
+
+h1,h2,h3,h4,h5,h6{
+	color: #474747;
+	text-transform: UPPERCASE;	
+}
+
+h1{
+	font-size: 36px;
+}
+
+h2{
+	font-size: 34px;
+}
+
+h3{
+	font-size: 30px;
+}
+
+h4{
+	font-size: 24px;
+}
+
+h5{
+	font-size: 20px;
+}
+
+h6{
+	font-size: 18px;
+}
+
+p{
+	line-height: 25px;
+}
+
+a{
+	color: #999;
+}
+
+.button .bt-center h4, .grey-button .bt-center h4,.grey-button .bt-center h6{
+	color: #fff;
+}
+
+
+/* Forms/ Buttons */
+
+label{
+	width: 100px;
+	float: left;
+	text-align: center;
+	font-weight: bold;
+}
+
+input{
+	border: 1px solid #888;
+	border-radius: 3px;
+}
+
+form p{
+	margin-bottom: 20px;
+}
+
+.button p ,.grey-button p{
+    color: #FFFFFF;
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 2px 0;
+	text-transform: UPPERCASE;
+}
+
+.warn{
+	color: red;
+	display: none;
+	padding: 0 98px;
+	font-weight: italic;
+	font-size: 10px;
+	margin: 0;
+}
+
+.registration-form .grey-button .bt-center p {
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+#reg-button{
+	padding: 25px 35px;
+}
+
+.bt-left{
+	background: url(blue-button-left-bg.png) no-repeat;
+	float: left;
+	width: 8px;
+	height: 64px;
+}
+
+.bt-center{
+	background: url(blue-button-mid-bg.png) repeat-x;
+	float: left;
+	height: 64px;
+	color: #fff;
+	padding: 13px 25px 0 25px;
+}
+
+.bt-right{
+	background: url(blue-button-right-bg.png) no-repeat;
+	float: left;
+	width: 8px;
+	height: 64px;
+}
+
+.grey-button .bt-left{
+	background: url(button-left-bg.png) no-repeat;
+	float: left;
+	width: 9px;
+	height: 59px;
+}
+
+.grey-button .bt-center{
+	background: url(button-mid-bg.png) repeat-x;
+	float: left;
+	height: 59px;
+}
+
+.grey-button .bt-right{
+	background: url(button-right-bg.png) no-repeat;
+	float: left;
+	width: 9px;
+	height: 59px;
+}
+
+/* Layout Style */
+
+.container{
+	width: 1200px;
+	margin: 50px auto;
+	overflow: hidden;	
+}
+
+.row{
+	width: 100%;
+	overflow: hidden;
+}
+
+.col1,.col2,.col3,.col4,.col5,.col6,.col7,.col8,.col9,.col10,.col11,.col12{
+	margin: 0 25px;
+	float: left;
+}
+
+.col1{}
+
+.col2{}
+
+.col3{
+	width: 265px;
+}
+
+.col4{
+	width: 366.3px;
+}
+
+.col5{}
+
+.col6{
+	width: 575px;	
+}
+
+.col7{}
+
+.col8{
+	width: 785px;
+}
+
+.col9{}
+
+.col10{}
+
+.col11{}
+
+.col12{
+	width: 1200px;
+}
+
+
+.header{
+	background: #3f4042;
+	width:1183px;
+	float: left;
+	position: relative;
+/*	height: 75px; */
+	border: 9px solid #e64c26;
+	border-radius: 10px;
+}
+
+.hlogo{
+	float: left;
+	padding: 20px;
+}
+
+.hmenu{
+	position: absolute;
+	right: 0;
+	padding: 18px;
+}
+	
+	.hmenu ul li{
+		float: left;
+		padding: 10px;
+	}
+	
+	.hmenu ul li a, .hmenu ul li ul li a{
+		text-transform: UPPERCASE;
+		text-decoration: none;
+		color: #fff;
+		font-weight: bold;
+		padding: 10px 15px;
+	}
+	
+	.hmenu ul li a:hover, .hmenu ul li.present a{
+		background: #262728;
+		border-radius: 4px;
+	}
+	
+	.hmenu ul li ul li{
+			background: #262728;
+			display: none;
+			border-bottom: 2px solid #E64C26;
+			/* border-radius: 4px; */
+			clear: both;
+		}
+		
+		.hmenu ul li ul li a{
+			display: block;
+		}
+		
+.banner {
+	width: 945px;
+	display: block;
+	margin: 10px auto;
+	padding: 20px 0;
+	clear: both;
+}
+
+.banner-center{
+	text-align: center;
+	border-top: 7px double #d1d3d2;
+	border-bottom: 7px double #d1d3d2;
+	padding: 57px 75px;
+	margin: 40px 0;
+}
+
+.banner-bottom{
+ /*	padding: 10px 0; */
+}
+
+.quest{
+	width: 565px;
+	text-align: right;
+	padding: 0 46px;
+}
+
+.skillheading, .eager-heading{
+	text-align: center;
+	border-bottom: 7px double #ccc;
+	padding: 20px 0;
+}
+
+.skill-h2 h6, .eager-h2 h6{
+    color: #696969;
+    padding: 11px 0 20px;
+}
+.skills .col4{
+
+	padding: 80px 0 15px;
+
+}
+
+.skills .col4 img.skillimg{
+	width: 100%;
+	border-radius: 10px;
+}
+
+.whatskill{
+	padding-top: 30px;
+}
+
+.skill-desc{}
+
+.skillfooter{
+	clear: both;
+	padding: 30px;
+	text-align: center;
+}
+
+.eager-text{
+	text-align: center;
+	padding: 20px;
+}
+
+.eager .button, .eager .grey-button{
+	margin: 0 160px;
+}
+
+.fromblog-posts{
+	clear:both;
+	padding: 20px 0;
+}
+.post-date p{
+	color: #474747;
+	text-transform: UPPERCASE;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.post-title{
+	float:left;
+}
+
+.titleplus{
+	padding: 20px 0;
+	position: relative;
+}
+
+#ps2,#ps3{
+	display:none;
+}
+
+.expand-icon{
+	background: url(expand-icon.png) no-repeat;
+	width: 29px;
+	height: 29px;
+	position: absolute;
+	top:0;
+	right: 0;
+}
+
+.less{
+	background: url(less-icon.png) no-repeat;
+}
+.fromblog-post{
+	overflow: hidden;
+	border-bottom: 1px solid #ccc;
+}
+
+/* 785 + 366.3 = 1201.3 .. to adjust that, i reduced the margin of register block by 2px*/
+.margin23{
+	margin-left: 22px;
+}
+
+
+.footerlist ul li{
+	padding: 10px 0;
+	border-bottom: 1px solid #ccc;
+}
+
+.footer-title{
+	padding: 35px 0;
+}
+
+
+.footer-col .col3 label {
+    color: #DDDDDD;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.small-textbox{
+	float:left;
+	width:160px;
+	margin: 10px 0;
+
+}
+.footer{
+	overflow: hidden;
+	padding: 10px 0 70px 0;
+	border-bottom: 1px solid #ccc;
+}
+
+.footer1{
+	clear: both;
+	text-align: center;
+	padding: 50px 0 80px 0;
+}
+
+/* Sprites */
+
+
+.html4:before ,.css:before,.jquery:before{
+    content: "";
+    float: left;
+    margin: 0 14px 0 0;
+	width: 60px;
+	height: 52px;
+}
+
+.html4:before {
+	background:  url(icons.png) repeat scroll 0 56px;
+}
+
+.css:before{
+	background:  url(icons.png) repeat scroll -60px 56px;
+}
+
+.jquery:before{
+	background:  url(icons.png) repeat scroll 63px 56px;
+}
+
+.fromblog-title:before ,.register-title:before{
+    content: "";
+    float: left;
+    margin: 0 14px 0 0;
+}
+
+.fromblog-title:before{
+	background: url(icons.png) repeat scroll -2px -36px;
+	height: 40px;
+    width: 46px;
+}
+
+.register-title:before{
+	background: url(icons.png) repeat scroll -50px -36px;
+	height: 40px;
+    width: 46px;
+}
+
+
+/* Utility Classes */
+.hlogo h4, .hmenu ul li a, .footer-title h5{
+	color: #fff;
+}
+
+	/* --> backgrounds */
+.bg{
+	background: url(banner.jpg) 0 -222px;
+}
+
+.bg1{
+	background: url(bg01.jpg);
+}
+
+.bg2{
+	background: url(bg03.png);
+}
+
+.bg3{
+	background: url(bg01.jpg);
+}
+
+.bg4{
+	background: url(bg02.jpg);
+}
+
+.fltlft{
+	float: left;
+}
+
+.fltrgt{
+	float: right;
+}
+
+.clr{
+	clear:both;
+}
+
+.padtop20{
+	padding: 20px 0;
+}
+
+.flush-left{
+	margin-left:0;
+}
+
+.flush-right{
+	margin-right:0;
+}
+
+.bold-subhead{
+	font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Page Specific Styles */
+.banner-center h2, .banner-bottom h4{
+	color: #d1d3d2;
+}
+
+
+
+
